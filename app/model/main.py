@@ -8,7 +8,7 @@ import uvicorn
 
 
 
-model_dir = "model"
+model_dir = "model/weights"
 model_path = os.path.join(model_dir, 'model.pkl')
 encoder_path = os.path.join(model_dir, 'encoder.pkl')
 vectorizer_path = os.path.join(model_dir, 'vectorizer.pkl')
